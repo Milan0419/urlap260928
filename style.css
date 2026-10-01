@@ -1,0 +1,21 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 241, 215);
+}
+
+body{
+    margin: 0 25%;
+}
+select option{
+    background-color: rgb(161, 111, 18);
+    color: white;
+}
+
+button{
+    border-radius: 10px 10px;
+    width: 15%;
+    height: 150%;
+    border-color: bisque;
+    box-shadow: 0 2px;
+    background-color: burlywood;
+}

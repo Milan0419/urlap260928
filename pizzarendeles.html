@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Regisztráció</h1>
+
+    <form action="https://httpbin.org/post" method="post">
+        <label for="nev">Teljes név:</label>
+        <input type="text" name="nev" id="nev" placeholder="pl.: Vak Béla"
+         required>
+         <label for="email">E-mail:</label>
+         <input type="email" name="email" id="email" placeholder="pelda@peldamail.com" required>
+         <label for="telszam">Telefonszám:</label>
+         <input type="phone-number" name="telszam" id="telszam" 
+         required placeholder="+36701234567" minlength="12" maxlength="15">
+
+         <label for="age">Életkor</label>
+         <input type="number" name="age" id="age"
+         min="0" max="120">
+
+         <label for="gender">Férfi</label>
+         <input type="radio" name="gender" id="male" value="male">
+         <label for="gender">Nő</label>
+         <input type="radio" name="gender" id="female" value="female">
+
+
+         <label for="sports">Foci</label>
+         <input type="checkbox" name="sports" id="foci" value="foci">
+         <label for="sports">Röpi</label>
+         <input type="checkbox" name="sports" id="ropi" value="ropi">
+         <input type="submit" id="register "value="Regisztráció">
+    </form>
+</body>
+</html>
